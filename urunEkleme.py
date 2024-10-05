@@ -7,6 +7,8 @@ chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--incognito')
 mailim="bulutesreferen@gmail.com"
 sifre="Trabzon0661."
+mailim=""
+sifre=""
 driver=webdriver.Chrome(options=chrome_options)
 driver.maximize_window()
 driver.get("https://www.trendyol.com/giris?cb=%2F")
